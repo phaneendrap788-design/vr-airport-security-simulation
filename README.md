@@ -70,7 +70,9 @@ The simulator integrates:
 The complete workflow used during development.
 
 <p align="center">
-<img src="./screenshots/architecture.png" width="95%">
+
+<img width="549" height="191" alt="image" src="https://github.com/user-attachments/assets/340db75f-43d6-4328-8f17-979b1da40d5b" />
+
 </p>
 
 ---
