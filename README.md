@@ -80,7 +80,10 @@ The complete workflow used during development.
 The airport environment was designed using Unreal Engine 5 with customized assets, realistic lighting, airport lounges, baggage systems, boarding gates, and security checkpoints.
 
 <p align="center">
-<img src="./screenshots/airport-environment.png" width="95%">
+
+
+<img width="382" height="228" alt="VR Airport" src="https://github.com/user-attachments/assets/e37355d8-2b7c-433a-9eb1-adef2f4203f9" />
+
 </p>
 
 ---
@@ -99,7 +102,9 @@ Main gameplay includes:
 - Trigger Events
 
 <p align="center">
-<img src="./screenshots/gameplay-blueprint.png" width="95%">
+
+<img width="387" height="228" alt="VR" src="https://github.com/user-attachments/assets/26ff9a29-8cce-403b-b9c4-37d8871a8a1b" />
+
 </p>
 
 ---
@@ -117,7 +122,9 @@ The AI simulates:
 - Boarding
 
 <p align="center">
-<img src="./screenshots/ai-animation.png" width="95%">
+
+<img width="392" height="281" alt="Vr_Characters" src="https://github.com/user-attachments/assets/c9e78b94-9110-438f-a02c-50fcab954786" />
+
 </p>
 
 ---
