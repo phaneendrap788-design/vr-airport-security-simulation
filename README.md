@@ -1,156 +1,181 @@
-# ✈️ VR Airport Security Simulation
+<p align="center">
+  <img src="./screenshots/banner.png" alt="VR Airport Security Simulation Banner" width="100%">
+</p>
 
-A multiplayer Virtual Reality Airport Security Training Simulator developed using **Unreal Engine 5**. The project enables users to experience realistic airport security operations by playing as either a traveler or a security officer in a synchronized multiplayer environment.
+<h1 align="center">
+✈️ VR Airport Security Simulation
+</h1>
+
+<p align="center">
+
+![Unreal Engine](https://img.shields.io/badge/Engine-Unreal%20Engine%205-black?style=for-the-badge&logo=unrealengine)
+![VR](https://img.shields.io/badge/Virtual-Reality-purple?style=for-the-badge)
+![Multiplayer](https://img.shields.io/badge/Multiplayer-Enabled-blue?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Behaviour%20Trees-success?style=for-the-badge)
+![Blueprint](https://img.shields.io/badge/Blueprint-Unreal-blue?style=for-the-badge)
+
+</p>
 
 ---
 
-## 📌 Project Overview
+# 📖 Overview
 
-This project simulates a real-world airport security environment in Virtual Reality. Users can:
+A **Multiplayer Virtual Reality Airport Security Training Simulator** developed using **Unreal Engine 5**.
 
-- 🎫 Collect boarding passes
-- 🧳 Place baggage on conveyor belts
-- 🔍 Scan baggage
-- 🚶 Pass through security checkpoints
-- 👮 Play as Security Officer
-- 🧍 Play as Traveler
-- 🤖 Interact with AI passengers
-- 🌐 Experience multiplayer gameplay
+The project recreates a realistic airport environment where players assume the role of either a **Traveler** or **Security Officer** while completing airport security workflows in an immersive VR environment.
 
----
+The simulator integrates:
 
-## 🛠️ Technologies Used
-
-- Unreal Engine 5
-- Virtual Reality (VR)
-- Blueprint Visual Scripting
-- AI Behaviour Trees
 - Multiplayer Networking
-- Blender
-- Sketchfab Assets
-- Mixamo Animations
+- AI-controlled Passengers
+- Blueprint Visual Scripting
+- Interactive Security Checkpoints
+- Baggage Handling System
+- Boarding Process
+- Realistic Airport Environment
+
+---
+
+# 🎯 Features
+
+- ✈️ Multiplayer VR Experience
+- 👮 Security Officer Gameplay
+- 🧍 Traveler Gameplay
+- 🤖 AI Passengers
+- 🛄 Baggage Conveyor System
+- 🎫 Boarding Pass Collection
+- 🚪 Automatic Doors
+- 📦 Security Scanning
+- 🎮 Blueprint Visual Scripting
+- 🌍 Realistic Airport Environment
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Unreal Engine 5 | Game Development |
+| Blueprint | Gameplay Logic |
+| Blender | Asset Editing |
+| Sketchfab | 3D Models |
+| Mixamo | Character Animations |
+| AI Behaviour Trees | NPC Behaviour |
+| Multiplayer Networking | Online Sessions |
 
 ---
 
 # 🏗️ System Architecture
 
-The following workflow illustrates the overall development process of the VR Airport Security Simulation.
+The complete workflow used during development.
 
 <p align="center">
-<img src="screenshots/architecture.png" width="900">
+<img src="./screenshots/architecture.png" width="95%">
 </p>
 
 ---
 
 # 🌍 Airport Environment
 
-A realistic airport terminal was designed using Unreal Engine 5 with customized 3D assets, lighting, waiting lounges, security checkpoints, baggage handling systems, and boarding gates.
+The airport environment was designed using Unreal Engine 5 with customized assets, realistic lighting, airport lounges, baggage systems, boarding gates, and security checkpoints.
 
 <p align="center">
-<img src="screenshots/airport-environment.png" width="900">
+<img src="./screenshots/airport-environment.png" width="95%">
 </p>
 
 ---
 
 # 🎮 Gameplay Implementation
 
-The gameplay system was implemented using Unreal Engine Blueprint Visual Scripting.
+Gameplay logic was implemented using Unreal Engine Blueprint Visual Scripting.
 
-Features include:
+Main gameplay includes:
 
-- Multiplayer session management
-- Boarding system
-- Security scanning
-- Baggage movement
-- Character interactions
-- Role-based gameplay
+- Multiplayer Sessions
+- Boarding System
+- Security Screening
+- Role Switching
+- Interactive Objects
+- Trigger Events
 
 <p align="center">
-<img src="screenshots/gameplay-blueprint.png" width="900">
+<img src="./screenshots/gameplay-blueprint.png" width="95%">
 </p>
 
 ---
 
 # 🤖 AI Character Animation
 
-AI passengers simulate realistic airport behavior using:
+Passengers are controlled using AI Behaviour Trees and Navigation Mesh.
 
-- Behaviour Trees
-- Navigation Mesh
-- Animation Blueprints
-- Mixamo Animations
+The AI simulates:
+
+- Walking
+- Waiting
+- Queueing
+- Security Checks
+- Boarding
 
 <p align="center">
-<img src="screenshots/ai-character-animation.png" width="900">
+<img src="./screenshots/ai-animation.png" width="95%">
 </p>
-
----
-
-# ⭐ Key Features
-
-- Multiplayer VR Experience
-- Airport Security Training
-- AI Controlled Passengers
-- Interactive Airport Environment
-- Realistic Character Animation
-- Role Based Gameplay
-- Security Screening Workflow
-- Boarding Pass Collection
-- Baggage Conveyor System
-- Unreal Engine 5 Blueprints
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-vr-airport-security-simulation/
+vr-airport-security-simulation
 │
 ├── docs/
-│   ├── VR_Airport_Simulation_Report.pdf
-│   ├── VR_Airport_Simulation_Presentation.pptx
+│   ├── Project_Report.pdf
+│   ├── Presentation.pptx
 │
 ├── screenshots/
+│   ├── banner.png
 │   ├── architecture.png
 │   ├── airport-environment.png
 │   ├── gameplay-blueprint.png
-│   └── ai-character-animation.png
+│   └── ai-animation.png
 │
 ├── source/
-│
 ├── assets/
-│
 ├── demo/
 │
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
-- Voice Communication
-- More Airport Scenarios
-- Passenger AI Improvements
-- Security Threat Detection
-- Oculus Quest Optimization
-- Cloud Multiplayer Server
+- Voice Chat
+- Cloud Multiplayer Servers
+- AI Threat Detection
+- Additional Airport Scenarios
+- Meta Quest Optimization
+- Dynamic Weather
+- Passenger Analytics
 
 ---
 
 # 👨‍💻 Contributors
 
-- Bala Phaneendra Pothuri
-- Team Members
-- Professor Sharad Sharma
+**Bala Phaneendra Pothuri**
+
+University of North Texas
 
 ---
 
 # 📄 Documentation
 
-Complete documentation is available inside the **docs/** folder.
+Complete project documentation is available in the **docs/** folder.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ac044aa7-5416-4bae-b633-ed69e5de781f" />
+
 
 ---
 
-⭐ If you like this project, consider giving it a Star!
+⭐ If you found this project interesting, consider giving it a **Star**.
